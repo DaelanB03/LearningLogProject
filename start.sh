@@ -1,3 +1,3 @@
 python manage.py migrate
 
-gunicorn LearningLogProject.wsgi:application
+gunicorn learning_log.wsgi:application
